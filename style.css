@@ -1,0 +1,216 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+ padding-left: 7px;
+     font-size: 17px;
+}
+
+.logo{
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+    li a{
+        padding: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        }
+        li a:hover{
+            color: rgb(44, 163, 44);
+        }
+li{
+    display: inline;
+}
+li #search{
+    margin-left: 200px;
+}
+input{
+    width:200px;
+}
+.navb li{
+    padding: 5px;
+}
+
+.navb li button,input{
+    text-transform: capitalize;
+    }   
+   .navb input{
+       border-radius: 13px;
+       border: 1px solid gray;
+       background-image: url(img/download.png);
+       background-repeat: no-repeat;
+       background-size: 10%;
+       background-position:5px;
+       height: 30px;
+       padding-left:30px ;
+       margin-top: none;
+       
+   }
+.log{
+    border: none;
+    background-color: white;
+  }
+  .log:hover{
+    color: rgb(44, 163, 44);
+  }
+
+.sign{
+    border-radius:5px;border:1px solid  rgb(44, 163, 44) ;
+    background-color: rgb(44, 163, 44);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}.sign:hover{
+ cursor: pointer;
+    background-color: green;
+}
+.navtwo li{
+    font-size: 13px;
+    padding: 20px;
+}.navtwo li:hover{
+    color: rgb(44, 163, 44);
+    cursor: pointer;
+}
+.teo{
+    display: flex;flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 20px;width: 40%;
+}
+.left h1{
+    font-size:60px;margin-top: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; 
+}
+.left p{
+    font-weight: 700;color: gray;line-height: 40px;
+}
+#tal{border-radius:5px;border:1px solid  rgb(44, 163, 44) ;
+    background-color: rgb(44, 163, 44);
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 13px;font-weight: bold;
+
+}#fin{
+    color:rgb(44, 163, 44);border:1px solid gray;
+    cursor: pointer;background-color: white;
+    padding: 13px;border-radius:5px;
+    font-weight: bold;
+}.left img{
+    margin-top: 40px;
+}
+.rig{
+    width: 45%;padding-right: 70px;
+}
+.client{
+    text-align: center;color: gray;
+    margin-top: 100px;
+}.client h1{color: indigo;
+font-family: serif;    font-size:3em;
+    
+}.client p{
+    font-weight: 700;
+    word-spacing: 5px;
+
+}.three{
+    display: flex;
+    justify-content: space-around;flex-wrap: wrap;
+}
+.three h6{
+    margin-top: 10px;
+    font-family: serif;
+}
+.three div{
+background-color: #f5f5f5;color: indigo;
+width: 25%;
+height: 270px;
+}.three div:hover{
+    background-color: rgb(57, 179, 57);
+    color: white;
+    
+}
+
+#c{
+    text-align: center;color: gray;
+    margin-top: 40px;
+    }
+    #c a{
+        text-decoration: none;
+    color: rgb(44, 163, 44);
+    }#c a:hover{
+        text-decoration: underline;
+        color:green;
+    }.dev{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }.it h6{
+        font-size: 75px;
+        margin-left: 15px ;
+        font-family: serif;
+        margin-top: 0px;margin: 0px;
+        }
+        h6.active{
+            color: rgb(57, 179, 57);
+
+        }
+    .it h6:hover{
+    color: rgb(57, 179, 57);
+    }
+    .btns{
+        margin-left: 20px;margin-top: 10px;
+    }
+    .btns button{
+        border:1px solid gray;
+        color: gray;background-color: white;
+        border-radius: 25px;
+        height: 50px;
+        width: 250px;
+        margin: 3px;
+    }.btns button:hover{
+        color: white;
+        background-color: indigo;
+    }
+    .one{
+        justify-content: center;
+    }
+    .five{
+        margin-left:10px ;
+    }
+.m{
+    margin-left: 30px;
+}.butt{
+    text-align: center;
+}.butt a{
+    text-decoration: none;
+    color: rgb(57, 179, 57); 
+}
+.fin{
+    color:rgb(44, 163, 44);border:1px solid gray;
+    cursor: pointer;background-color: white;
+    padding: 13px;border-radius:5px;
+    font-weight: bold;
+margin-left: 45%;
+margin-top: 40px;
+}
+.footer{
+background-color: rgb(90, 38, 128);
+}
+table{
+    font-family: serif;
+    font-size: normal;
+    color: white;
+    width: 100%;
+    margin-top: 40px;margin-left:10% ;
+    margin-right: 10%;
+}th{
+    text-align: left;
+    padding-bottom: 5px;
+}td{
+    padding: 5px;
+}
